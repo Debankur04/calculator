@@ -1,0 +1,48 @@
+*{
+    font-size: large;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(pngtree-mysterious-cosmic-space-galaxy-nebula-background-picture-image_1179108.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+input{
+    background-color: white;
+    width: 410px;    
+    height: 50px;    
+    position: absolute;    
+    top: 15%;
+    left: 35%;
+    border-radius: 5%;
+    text-align: right;
+}
+.container{
+    margin: 5%;
+    background-color: transparent;
+    height: 60vh;
+    width: 70vh;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px -1px black,
+            -10px -10px 10px -1px black;
+    background: rgb(0, 0, 0, 0.5);
+    
+}
+.keypad{
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+button{
+    padding: 10px;
+    height: 52px;
+    width: 100px;
+    box-shadow: 1px 1px 1px -0.1px black,
+    -1px -1px 1px -0.1px black;
+    border-radius: 5%;
+}
+.long{
+    width: 204px;
+}
